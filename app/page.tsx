@@ -49,7 +49,7 @@ export default function SmartSpendAI() {
     setShowForm(false);
   };
 
-  const handleEditExpense = (expense) => {
+ const handleEditExpense = (expense: Expense) => {
     setFormData(expense);
     setEditingId(expense.id);
     setShowForm(true);
